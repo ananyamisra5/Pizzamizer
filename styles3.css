@@ -1,0 +1,62 @@
+*{
+    margin: 2%;
+}
+
+section{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+.header{
+    font-size: 2rem;
+    padding-left: 5%;
+}
+img{
+    height: 300px;
+    width: 470px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+ul{
+    background-color: yellow;
+    font-size: 1.3rem;
+}
+@media (max-width: 850px){
+    img{
+        position: relative;
+        right: 0;
+    }
+}
+button{
+        height: 40px;
+        width: 85px;
+        outline: none;
+        border: none;
+        text-align: center;
+        background-color: hotpink;
+        float: right;
+}
+button:hover{
+    background-color: rgb(179, 17, 98);
+    color: white;
+}
+.random{
+    font-size: 1.3rem;
+}
+img.image{
+        height: 150px;
+        width: 150px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        
+}
+img.images{
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0%;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 2%;
+}
+
+section{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    position: relative;
+}
+.header{
+    font-size: 2.4rem;
+    padding-left: 3%;
+    
+}
+img{
+    height: 85%;
+    width: 85%;
+}
+img.image{
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+img.images{
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+}
+.names{
+    font-size: 1.4rem;
+}
+.links{
+    color: rgb(0, 0,0,.5);
+    text-decoration: none;
+}
+.links:hover{
+    color: white;
+    background-color: rgba(11, 112, 143, 0.952);
+    padding: 15px ;
+}

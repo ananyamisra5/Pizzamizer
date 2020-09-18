@@ -1,0 +1,48 @@
+*{
+    margin: 2%;
+}
+section{
+    background-color: skyblue;
+    padding: 2%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+    position: relative;
+}
+.header{
+    font-size: 4rem;
+    background-color: rgb(143, 10, 196);
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+   
+}
+.tagline{
+    font-size: 1.5rem;
+    background-color: limegreen;
+    text-align: center;
+    border-radius: 6px;
+}
+.links{
+    color: rgb(0, 0,0,.5);
+    text-decoration: none;
+}
+.links:hover{
+    color: white;
+    background-color: green;
+}
+img{
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+img.image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 170px;
+}
