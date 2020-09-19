@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pizzamizer-dev-133706-authRole",
+      "UnauthRoleArn": "arn:aws:iam::482593015494:role/amplify-pizzamizer-dev-133706-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::482593015494:role/amplify-pizzamizer-dev-133706-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pizzamizer-dev-133706-deployment",
+      "UnauthRoleName": "amplify-pizzamizer-dev-133706-unauthRole",
+      "StackName": "amplify-pizzamizer-dev-133706",
+      "StackId": "arn:aws:cloudformation:us-east-1:482593015494:stack/amplify-pizzamizer-dev-133706/32c89700-f9cd-11ea-942f-0e6b90c5010d",
+      "AmplifyAppId": "d1ju1hpw671emm"
+    }
+  }
+}

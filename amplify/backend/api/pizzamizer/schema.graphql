@@ -1,0 +1,12 @@
+type Pizza @model {
+  id: ID!
+  name: String!
+  ingredients: [Ingredients]
+}
+
+type Ingredients @model {
+  id: ID!
+  name: String!
+  description: String!
+  disgusting: Boolean!
+}

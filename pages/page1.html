@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzamizer</title>
-    <link rel="stylesheet" href="../styles/styles1.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../styles/styles1.css" />
+  </head>
+  <body>
     <!-- the name page -->
     <section>
-        <img src="../assets/silly hacks logo.png" alt="logo">
-        <img class="image" src="../assets/faq.webp" alt="sponsor1">
-        <div class="header">Welcome to Pizzamizer</div>
-        <div class="tagline"><span><a href="#" class="links">Log In</a>or<a href="#" class="links">Signup</a></span> <br>
-        <span>To create some nyc pizzas</span></div>
+      <img src="../assets/logo.png" alt="logo" />
+      <img class="image" src="../assets/faq.webp" alt="sponsor1" />
+      <div class="header">Welcome to Pizzamizer</div>
+      <div class="tagline">
+        <span
+          ><a href="#" class="links">Log In</a>or<a href="#" class="links"
+            >Signup</a
+          ></span
+        >
+        <br />
+        <span>To create some nyc pizzas</span>
+      </div>
+
+      <button id="btn-login" disabled="true" onclick="login()">Log in</button>
+      <button id="btn-logout" disabled="true" onclick="logout()">
+        Log out
+      </button>
     </section>
-</body>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.9/auth0-spa-js.production.js"></script>
+    <script src="../src/page1.js"></script>
+  </body>
 </html>
